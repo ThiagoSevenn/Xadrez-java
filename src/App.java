@@ -1,7 +1,11 @@
 import boardgame.Board;
+import chess.ChessMatch;
+
 
 public class App {
     public static void main(String[] args) throws Exception {
-        Board boargame = new Board(8, 8);
+        ChessMatch chessMatch = new ChessMatch();
+        Interface.printBoard(chessMatch.getPieces());
     }
 }
+
